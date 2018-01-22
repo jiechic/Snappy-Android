@@ -1,0 +1,12 @@
+*.iml
+.gradle
+.DS_Store
+.externalNativeBuild
+local.properties
+build
+.idea
+*.swp
+plugin
+freeline*
+bugly
+captures
