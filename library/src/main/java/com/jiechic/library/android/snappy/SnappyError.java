@@ -37,7 +37,7 @@ public class SnappyError
      */
     private static final long serialVersionUID = 1L;
 
-    public final SnappyErrorCode errorCode;
+    private final SnappyErrorCode errorCode;
 
     public SnappyError(SnappyErrorCode code)
     {

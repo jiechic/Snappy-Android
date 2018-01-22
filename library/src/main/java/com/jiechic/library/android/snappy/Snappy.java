@@ -25,12 +25,9 @@
 package com.jiechic.library.android.snappy;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
-import java.net.URL;
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
-import java.util.Properties;
 
 /**
  * Snappy API for data compression/decompression

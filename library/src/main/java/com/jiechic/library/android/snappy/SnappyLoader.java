@@ -25,10 +25,6 @@
 package com.jiechic.library.android.snappy;
 
 import java.io.*;
-import java.net.URL;
-import java.util.Enumeration;
-import java.util.Properties;
-import java.util.UUID;
 
 /**
  * <b>Internal only - Do not use this class.</b> This class loads a native
