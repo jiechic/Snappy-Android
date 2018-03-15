@@ -20,7 +20,11 @@ public class MainActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+        try {
+            textView.setText(Snappy.uncompress("kjsdkjfj".getBytes()).toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 //        textView.setText(Native.stringFromJNI());
     }
 }
